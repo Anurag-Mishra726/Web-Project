@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color: rgb(93, 92, 92);
+    --text-font-size: 1.5em;
+}
+
+html, body{
+    width: 100%;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    max-width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.section-1{
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(146, 4, 4);
+    margin-bottom: 1vh;
+}
+
+.section-2 > p{
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+}
+
+.section-2 > ul{
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+    margin: 1% 4%;
+}
+
+.bold-color{
+    font-weight: 500;
+    color: black;
+}
+
+.section-3 > h3{
+    font-size: 2em;
+    margin: 1% 0 0 0;
+}
+
+.section-3 > ol > li{
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+    font-weight: 700;
+    list-style-position: inside;
+}
+
+.section-3 > ol > ul{
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+    list-style-position: inside;
+    list-style-type: disc;
+    margin: 1vh 2%;
+}
+
+.section-4{
+    margin: 3% 0;
+}
+
+.section-4 > h1{
+    font-size: 3em;
+    color: rgb(146, 4, 4);
+    margin-bottom: 1vh;
+}
+
+.section-4 > p{
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+}
+
+.section-4 > ul{
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.section-5 > h1{
+    font-size: 3em;
+    color: rgb(146, 4, 4);
+    margin-bottom: 1vh;
+}
+
+.section-5 > p{
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+    margin-bottom: 5%;
+}
+
+hr{
+    width: 95%;
+    margin: auto;
+    border: 0.2em solid rgb(146, 4, 4);
+    border-radius: 50px;
+    margin-bottom: 5vh;
+}
+
+footer{
+    height: 20%;
+    margin: 2% 0;
+}
+
+footer > div{
+    width: 30%;
+    margin: auto ;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(69, 69, 69);
+}
